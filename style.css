@@ -1,0 +1,54 @@
+/* mostly for troubleshooting, disable when the code is done */
+
+* {
+    border: 1px solid red;
+} 
+
+/* css for the basic elements of the website */
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 2px;
+    margin: 0;
+    gap: 16px;
+    font-size: 24px;
+    color: white;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+/* this section only holds containers */
+
+.header {
+    background-color: #1F2937;
+}
+
+.flex-container {
+    background-color: #1F2937;
+    color: white;
+}
+
+.flex-container-3 {
+    background-color: #E5E7EB;
+    color: #1F2947;
+}
+
+.footer {
+    background-color: #1F2937; 
+    color: white;
+}
+
+/* css rules for more specific elements of the website */
+
