@@ -133,8 +133,12 @@ h2 {
 }
 
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937; 
     color: white;
+    padding: 2%;
 }
 
 /* css rules for more specific elements of the website */
