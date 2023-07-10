@@ -5,7 +5,7 @@
         border: 4px solid olive;
     }
     /* these are CHILDREN containers */
-    .header-links, .description-container-left, .description-container-right, .placeholder-logo, .information-container, .cta-container-left, .cta-container-right {
+    .header-links, .description-container-left, .description-container-right, .placeholder-logo, .information-container, .cta-container-left, .cta-container-right, .testimonial-container-top, .testimonial-container-bottom {
         border: 4px solid orange;
     }
     /* these are ITEMS */
@@ -97,8 +97,23 @@ h2 {
 }
 
 .flex-container-3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     background-color: #E5E7EB;
     color: #1F2947;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.testimonial-container-top {
+    width: 50%;
+}
+
+.testimonial-container-bottom {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
