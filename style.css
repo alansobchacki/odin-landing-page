@@ -1,15 +1,23 @@
-/* mostly for troubleshooting, disable when the code is done */
+/* mostly for troubleshooting, will be deleted when the code is complete */
 
-* {
-    border: 1px solid red;
-} 
+    /* these are PARENT containers */
+    .header, .flex-container, .flex-container-2, .flex-container-3, .flex-container-4, .footer {
+        border: 4px solid olive;
+    }
+    /* these are CHILDREN containers */
+    .header-links, .description-container-left, .description-container-right, .placeholder-logo, .information-container, .cta-container-left, .cta-container-right {
+        border: 4px solid orange;
+    }
+    /* these are ITEMS */
+    a, li, p, h1, h2, h3, button, img {
+        border: 4px dotted lightblue;
+    }
 
 /* css for the basic elements of the website */
 
 body {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     margin: 0;
     height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
@@ -29,10 +37,22 @@ a {
     text-decoration: none;
   }
 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
 /* this section only holds containers */
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     background-color: #1F2937;
@@ -44,8 +64,36 @@ a {
 }
 
 .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 10%;
+}
+
+.description-container-left {
+    margin: 16px;
+    padding: 8px;
+}
+
+.description-container-right {
+    margin: 16px;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex: 1;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.information-container {
+    width: 10%;
+    text-align: center;
 }
 
 .flex-container-3 {
@@ -60,8 +108,17 @@ a {
 
 /* css rules for more specific elements of the website */
 
-.logo {
+.header-logo {
     width: 200px;
     height: 50px;
     background-color: rgb(17, 17, 17);
+}
+
+.hero-image {
+    width: 400px;
+    height: 200px;
+}
+
+.information-image {
+    width: 80%;
 }
