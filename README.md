@@ -3,8 +3,6 @@ Project #2: Landing Page
 
 A static landing page using Flexbox and a designer prompt.
 
-![image](https://github.com/user-attachments/assets/7ea20a0a-1b8a-42ee-8128-c652d76b4cac)
-
 Here's the [live project demo.](https://alansobchacki.github.io/odin-landing-page/)
 
 Disclaimer
