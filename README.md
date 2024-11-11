@@ -1,4 +1,4 @@
-Project #2: Landing Page
+Landing Page
 =============
 
 A static landing page using Flexbox and a designer prompt.
